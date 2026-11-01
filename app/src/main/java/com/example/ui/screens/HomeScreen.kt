@@ -345,13 +345,13 @@ private fun TopBrandingBar(
   ) {
     Column {
       Text(
-        text = if (isUrdu) "کاروبار و سروسز اشتہارات" else "Karobar & Services",
+        text = if (isUrdu) "شاہد ایپ • کاروبار و سروسز" else "Shahid App • Karobar & Ads",
         style = MaterialTheme.typography.titleLarge,
         fontWeight = FontWeight.ExtraBold,
         color = EmeraldPrimary
       )
       Text(
-        text = if (isUrdu) "مفت کاروباری پروموشن و خدمات" else "Business Promotion & Local Services",
+        text = if (isUrdu) "ایڈمن کنٹرول • کاروباری و سروسز اشتہارات" else "Admin Controlled Business & Services",
         style = MaterialTheme.typography.bodySmall,
         color = TextMuted
       )
